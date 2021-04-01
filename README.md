@@ -35,3 +35,9 @@ ROS 2 Package to capture image with camera
 ```
 ros2 run image_tools cam2image
 ```
+
+## Install and Run Package
+```
+git clone https://github.com/ANI717/ros2_deeplearn_twist
+colcon build && . install/setup.bash && ros2 run ros2_deeplearn_twist execute
+```
